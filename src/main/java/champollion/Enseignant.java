@@ -31,7 +31,7 @@ public class Enseignant extends Personne {
                     lesEnseignements.get(key).getVolumeTD() +
                     lesEnseignements.get(key).getVolumeTP()*0.75;
         }
-        return heuresPrevues.intValue();
+        return (int) Math.round(heuresPrevues);
     }
 
     /**
