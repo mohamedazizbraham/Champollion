@@ -1,7 +1,6 @@
 package champollion;
 
-import javax.naming.directory.InvalidAttributesException;
-import java.sql.Array;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
