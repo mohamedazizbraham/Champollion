@@ -61,7 +61,6 @@ public class ChampollionJUnitTest {
 		assertEquals(untel.resteAPlanifier(uml, TypeIntervention.CM), 0, "Le calcul des heures déjà planifié n'est pas bon");
 	}
 
-
 	@Test
 	public void testAjouteIntervention(){
 		assertThrows(IllegalArgumentException.class, () -> untel.ajouteIntervention(inter_uml_cm), "Ajout invalide");
